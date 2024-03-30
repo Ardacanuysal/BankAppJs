@@ -41,7 +41,7 @@ const BankPage = () => {
       <ScrollView style={{height: windowHeight * 0.6}}>
         <View
           style={{
-            marginTop: windowWidth * 0.07,
+            marginTop: windowWidth * 0.07, //Main scroll Container
             marginLeft: windowWidth * 0.03,
             marginRight: windowWidth * 0.03,
           }}>
