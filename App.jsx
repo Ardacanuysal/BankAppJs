@@ -21,35 +21,33 @@ const App = () => {
           paddingHorizontal: windowWidth * 0.03,
         }}>
         <Image
-          source={require('./src/images/Menu.png')}
+          source={require('./hamburger.png')}
           style={{
             width: windowWidth * 0.05,
             height: windowWidth * 0.05,
           }}
         />
         <Image
-          source={require('./src/images/Menu.png')}
+          source={require('./hamburger.png')}
           style={{
             width: windowWidth * 0.05,
             height: windowWidth * 0.05,
           }}
         />
-        
       </View>
-     <ScrollView style={{height:windowHeight*0.6}}>
-     <View style={{width: windowWidth * 0.3}}>
-        <View style={{paddingVertical: windowWidth * 0.03}}>
-          <Text
-            style={{
-              fontSize: windowWidth * 0.05,
-              fontWeight: 'bold',
-            }}>
-            MyCards
-          </Text>
+      <ScrollView style={{height: windowHeight * 0.6}}>
+        <View style={{width: windowWidth * 0.3}}>
+          <View style={{paddingVertical: windowWidth * 0.03}}>
+            <Text
+              style={{
+                fontSize: windowWidth * 0.05,
+                fontWeight: 'bold',
+              }}>
+              MyCards
+            </Text>
+          </View>
         </View>
-      </View>
-     </ScrollView>
-      
+      </ScrollView>
       <ScrollView
         style={{
           backgroundColor: 'red',
@@ -58,13 +56,10 @@ const App = () => {
         horizontal={true}>
         <View
           style={{
-            
-            flexDirection:'row'
+            flexDirection: 'row',
           }}>
-            <View>
-
-            </View>
-          </View>
+          <View></View>
+        </View>
       </ScrollView>
     </SafeAreaView>
   );
