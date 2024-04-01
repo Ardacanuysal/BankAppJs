@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ürün Satış Sitesi</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      header {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      }
+      nav {
+        background-color: #555;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+      }
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+      nav ul li {
+        display: inline;
+        margin: 0 10px;
+      }
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .content {
+        text-align: center;
+        margin-top: 50px;
+      }
+      .product {
+        display: inline-block;
+        width: 200px;
+        margin: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+      }
+      .product img {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px; /* Resimler arasında boşluk bırakmak için */
+    }
+      footer {
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Ürün Satış Sitesi</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Hakkımızda</a></li>
+        <li><a href="#">Anasayfa</a></li>
+        <li><a href="#">Ürünler</a></li>
+        <li><a href="#">İletişim</a></li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="content">
+        <h2>Ürünler</h2>
+        <div class="product">
+          <img src="ayakkabi.png" alt="Ürün 1" />
+          <div class="product-info">
+            <p class="product-price">99.99 TL</p>
+            <button class="add-to-cart">Sepete Ekle</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="ayakkabi.png" alt="Ürün 2" />
+          <div class="product-info">
+            <p class="product-price">149.99 TL</p>
+            <button class="add-to-cart">Sepete Ekle</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="ayakkabi.png" alt="Ürün 3" />
+          <div class="product-info">
+            <p class="product-price">79.99 TL</p>
+            <button class="add-to-cart">Sepete Ekle</button>
+          </div>
+        </div>
+        <div class="product">
+          <img src="ayakkabi.png" alt="Ürün 4" />
+          <div class="product-info">
+            <p class="product-price">129.99 TL</p>
+            <button class="add-to-cart">Sepete Ekle</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>&copy; 2024 Ürün Satış Sitesi</footer>
+  </body>
+</html>

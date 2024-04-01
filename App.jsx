@@ -59,9 +59,85 @@ const App = () => {
                 height: windowHeight * 0.2,
                 borderRadius: windowWidth * 0.05,
                 marginTop: windowWidth * 0.03,
-                alignSelf: 'flex-start',
-                
-              }}></View>
+              }}>
+              <Text
+                style={{
+                  color: 'white',
+                  marginTop: windowWidth * 0.04,
+                  marginLeft: windowWidth * 0.04,
+                  fontsize: windowWidth * 0.04,
+                }}>
+                Balance
+              </Text>
+              <Text
+                style={{
+                  color: 'white',
+                  marginTop: windowWidth * 0.02,
+                  marginLeft: windowWidth * 0.04,
+                  fontsize: windowWidth * 0.05,
+                }}>
+                25,633.00 £
+              </Text>
+              <View
+                style={{
+                  justifyContent: 'space-around',
+                  flexDirection: 'row',
+                  marginTop: windowWidth * 0.04,
+                  marginRight: windowWidth * 0.04,
+                }}>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontSize: windowWidth * 0.04,
+                  }}>
+                  ****
+                </Text>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontsize: windowWidth * 0.04,
+                  }}>
+                  ****
+                </Text>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontsize: windowWidth * 0.04,
+                  }}>
+                  ****
+                </Text>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontsize: windowWidth * 0.04,
+                  }}>
+                  4567
+                </Text>
+              </View>
+              <View
+                style={{
+                  justifyContent: 'space-between',
+                  flexDirection: 'row',
+                  marginTop: windowWidth * 0.02,
+                  marginLeft: windowWidth * 0.03,
+                  marginRight: windowWidth * 0.04,
+                }}>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontSize: windowWidth * 0.04,
+                  }}>
+                  12/20
+                </Text>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontSize: windowWidth * 0.04,
+                  }}>
+                  VISA
+                </Text>
+              </View>
+            </View>
             <View
               style={{
                 backgroundColor: '#fc983a',
@@ -69,7 +145,85 @@ const App = () => {
                 height: windowHeight * 0.2,
                 borderRadius: windowWidth * 0.05,
                 marginTop: windowWidth * 0.03,
-              }}></View>
+              }}>
+              <Text
+                style={{
+                  color: 'white',
+                  marginTop: windowWidth * 0.04,
+                  marginLeft: windowWidth * 0.04,
+                  fontsize: windowWidth * 0.04,
+                }}>
+                Balance
+              </Text>
+              <Text
+                style={{
+                  color: 'white',
+                  marginTop: windowWidth * 0.02,
+                  marginLeft: windowWidth * 0.04,
+                  fontsize: windowWidth * 0.05,
+                }}>
+                25,633.00 £
+              </Text>
+              <View
+                style={{
+                  justifyContent: 'space-around',
+                  flexDirection: 'row',
+                  marginTop: windowWidth * 0.04,
+                  marginRight: windowWidth * 0.04,
+                }}>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontSize: windowWidth * 0.04,
+                  }}>
+                  ****
+                </Text>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontsize: windowWidth * 0.04,
+                  }}>
+                  ****
+                </Text>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontsize: windowWidth * 0.04,
+                  }}>
+                  ****
+                </Text>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontsize: windowWidth * 0.04,
+                  }}>
+                  4567
+                </Text>
+              </View>
+              <View
+                style={{
+                  justifyContent: 'space-between',
+                  flexDirection: 'row',
+                  marginTop: windowWidth * 0.02,
+                  marginLeft: windowWidth * 0.03,
+                  marginRight: windowWidth * 0.04,
+                }}>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontSize: windowWidth * 0.04,
+                  }}>
+                  12/20
+                </Text>
+                <Text
+                  style={{
+                    color: 'white',
+                    fontSize: windowWidth * 0.04,
+                  }}>
+                  VISA
+                </Text>
+              </View>
+            </View>
           </ScrollView>
         </View>
       </ScrollView>
