@@ -19,20 +19,21 @@ const App = () => {
         style={{
           flexDirection: 'row',
           justifyContent: 'space-between', //Navbar
-          paddingHorizontal: windowWidth * 0.03,
+          paddingHorizontal: windowWidth * 0.01,
         }}>
         <Image
-          source={require('./hamburger.png')}
+          source={require('../../Assets/icons/hamburger.png')}
           style={{
-            width: windowWidth * 0.05, //Navbar
-            height: windowWidth * 0.05,
+            width: windowWidth * 0.09, //Navbar
+            height: windowWidth * 0.09,
           }}
         />
         <Image
-          source={require('./person.png')}
+          source={require('../../Assets/images/me.png')}
           style={{
-            width: windowWidth * 0.05, //Navbar
-            height: windowWidth * 0.05,
+            width: windowWidth * 0.09, //Navbar
+            height: windowWidth * 0.09,
+            borderRadius: windowWidth * 0.5,
           }}
         />
       </View>
@@ -40,8 +41,8 @@ const App = () => {
         <View
           style={{
             marginTop: windowWidth * 0.07, //Main Scroll Container
-            marginLeft: windowWidth * 0.03,
-            marginRight: windowWidth * 0.03,
+            marginLeft: windowWidth * 0.01,
+            marginRight: windowWidth * 0.01,
           }}>
           <Text
             style={{
@@ -225,6 +226,47 @@ const App = () => {
               </View>
             </View>
           </ScrollView>
+          <View>
+            <View
+              style={{
+                marginTop: windowWidth * 0.05,
+                flexDirection: 'row',
+                justifyContent: 'space-between',
+              }}>
+              <View>
+                <View
+                  style={{
+                    justifyContent: windowWidth * 0.02,
+                    alignItems: windowWidth * 0.3,
+                  }}>
+                  <Text
+                    style={{
+                      fontSize: windowWidth * 0.05,
+                      flexDirection: 'row',
+                      marginRight: windowWidth * 0.001,
+                    }}>
+                    Send Money To
+                  </Text>
+                </View>
+              </View>
+              <View style={{flexDirection: 'row', alignSelf: 'center'}}>
+                <Text
+                  style={{
+                    paddingLeft: windowWidth * 0.09,
+                  }}>
+                  Search
+                </Text>
+                <Image
+                  source={require('../../Assets/icons/search.png')}
+                  style={{
+                    borderRadius: windowWidth * 0.5,
+                    width: windowWidth * 0.06,
+                    height: windowWidth * 0.06,
+                  }}
+                />
+              </View>
+            </View>
+          </View>
         </View>
       </ScrollView>
     </SafeAreaView>

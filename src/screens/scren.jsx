@@ -229,40 +229,7 @@ const BankPage = () => {
                 </View>
               </View>
             </View>
-          </ScrollView>
-          <View
-            style={{
-              marginTop: windowWidth * 0.05,
-              flexDirection: 'row',
-              justifyContent: 'space-between',
-            }}>
-            <Text
-              style={{
-                fontSize: windowWidth * 0.05,
-                fontWeight: 'normal',
-                color: 'black',
-              }}>
-              Send Money to
-            </Text>
-            <View style={{flexDirection: 'row'}}>
-              <Text
-                style={{
-                  fontSize: windowWidth * 0.04,
-                  fontWeight: 'normal',
-                  color: 'black',
-                }}>
-                Search
-              </Text>
-              <Image
-                source={require('./search.png')}
-                style={{
-                  width: windowWidth * 0.05,
-                  height: windowWidth * 0.05,
-                  marginLeft: windowWidth * 0.03,
-                }}
-              />
-            </View>
-          </View>
+          </ScrollView>   
           <View
             style={{
               marginTop: windowWidth * 0.05,
