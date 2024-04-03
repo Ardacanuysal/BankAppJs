@@ -37,7 +37,7 @@ const App = () => {
           }}
         />
       </View>
-      <ScrollView style={{height: windowHeight * 0.6}}>
+      <ScrollView style={{height: windowHeight * 0.8}}>
         <View
           style={{
             marginTop: windowWidth * 0.07, //Main Scroll Container
@@ -311,7 +311,11 @@ const App = () => {
                     source={require('../../Assets/icons/plus.png')}></Image>
                 </View>
               </View>
-              <View style={{marginTop: windowWidth * 0.03}}>
+              <View
+                style={{
+                  marginTop: windowWidth * 0.03,
+                  marginBottom: windowWidth * 0.03,
+                }}>
                 <Text
                   style={{
                     fontSize: windowWidth * 0.05,
@@ -324,28 +328,83 @@ const App = () => {
             <View style={{flexDirection: 'row', alignSelf: 'start'}}>
               <View
                 style={{
-                  height: windowHeight * 0.07,
+                  height: windowHeight * 0.05,
                   width: windowWidth * 0.7,
                   borderRadius: windowWidth * 0.03,
-                  backgroundColor: 'black',
+                  backgroundColor: '#C7C8CC',
                 }}
               />
               <View
                 style={{
-                  backgroundColor: 'white',
-                  height: windowHeight * 0.02,
-                  width: windowWidth * 0.02,
-                  marginHorizontal:windowWidth*0.09
+                  backgroundColor: '#fc983a',
+                  height: windowWidth * 0.1,
+                  width: windowWidth * 0.1,
+                  marginHorizontal: windowWidth * 0.04,
                 }}>
                 <Image
                   style={{
-                    borderColor: 'white',
-                    borderWidth: 2,
-                    width: windowWidth * 0.2, //Navbar
-                    height: windowWidth * 0.2,
+                    width: windowWidth * 0.07,
+                    height: windowWidth * 0.07,
+                    alignSelf: 'center',
+                    justifyContent: 'center',
                   }}
-                  source={require('../../Assets/icons/send.png')}
+                  source={require('../../Assets/icons/sendWhite.png')}
                 />
+              </View>
+            </View>
+            <View
+              style={{
+                marginTop: windowWidth * 0.03,
+                marginBottom: windowWidth * 0.03,
+                marginLeft: windowWidth * 0.001,
+                marginRight: windowWidth * 0.001,
+              }}>
+              <Text
+                style={{
+                  fontSize: windowWidth * 0.05,
+                  fontFamily: 'Montserrat',
+                }}>
+                Total Sent
+              </Text>
+              <View
+                style={{
+                  marginTop:windowWidth*0.03,
+                  height: windowWidth * 0.2,
+                  width: windowWidth * 1,
+                  marginHorizontal: windowWidth * 0.01,
+                  flexDirection: 'row',
+                }}>
+                <Image
+                  style={{
+                    marginTop: windowWidth * 0,
+                    borderRadius: windowWidth * 0.03,
+                    width: windowWidth * 0.2,
+                    height: windowWidth * 0.2,
+                    alignSelf: 'center',
+                    justifyContent: 'center',
+                  }}
+                  source={require('../../Assets/images/arda.png')}></Image>
+                <View style={{marginLeft: windowWidth * 0.05}}>
+                  <Text
+                    style={{
+                      fontSize: windowWidth * 0.05,
+                      fontFamily: 'Montserrat',
+                    }}>
+                    Arda Can Uysal
+                  </Text>
+                  <Text
+                    style={{
+                      marginTop: windowWidth * 0.01,
+                      color: 'gray',
+                      fontSize: windowWidth * 0.03,
+                      fontFamily: 'Montserrat',
+                    }}>
+                    24 July 2023
+                  </Text>
+                  <View style={{flexDirection: 'row'}}>
+                    <Text>asdf</Text>
+                  </View>
+                </View>
               </View>
             </View>
           </View>
