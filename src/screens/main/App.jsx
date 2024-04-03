@@ -259,10 +259,92 @@ const App = () => {
                 <Image
                   source={require('../../Assets/icons/search.png')}
                   style={{
-                    borderRadius: windowWidth * 0.5,
+                    borderRadius: windowWidth * 0.6,
                     width: windowWidth * 0.06,
                     height: windowWidth * 0.06,
                   }}
+                />
+              </View>
+            </View>
+            <View>
+              <View
+                style={{
+                  width: '100%',
+                  height: windowWidth * 0.1,
+                }}>
+                <View style={{flexDirection: 'row'}}>
+                  <Image
+                    style={{
+                      borderColor: 'white',
+                      borderWidth: 2,
+                      width: windowWidth * 0.1, //Navbar
+                      height: windowWidth * 0.1,
+                      borderRadius: windowWidth * 0.5,
+                    }}
+                    source={require('../../Assets/images/me.png')}></Image>
+                  <Image
+                    style={{
+                      borderColor: 'white',
+                      borderWidth: 2,
+                      width: windowWidth * 0.1, //Navbar
+                      height: windowWidth * 0.1,
+                      borderRadius: windowWidth * 0.5,
+                    }}
+                    source={require('../../Assets/images/me.png')}></Image>
+                  <Image
+                    style={{
+                      borderColor: 'white',
+                      borderWidth: 2,
+                      width: windowWidth * 0.1, //Navbar
+                      height: windowWidth * 0.1,
+                      borderRadius: windowWidth * 0.5,
+                    }}
+                    source={require('../../Assets/images/me.png')}></Image>
+                  <Image
+                    style={{
+                      borderColor: 'white',
+                      borderWidth: 2,
+                      width: windowWidth * 0.1, //Navbar
+                      height: windowWidth * 0.1,
+                      borderRadius: windowWidth * 0.5,
+                    }}
+                    source={require('../../Assets/icons/plus.png')}></Image>
+                </View>
+              </View>
+              <View style={{marginTop: windowWidth * 0.03}}>
+                <Text
+                  style={{
+                    fontSize: windowWidth * 0.05,
+                    fontFamily: 'Montserrat',
+                  }}>
+                  Amount
+                </Text>
+              </View>
+            </View>
+            <View style={{flexDirection: 'row', alignSelf: 'start'}}>
+              <View
+                style={{
+                  height: windowHeight * 0.07,
+                  width: windowWidth * 0.7,
+                  borderRadius: windowWidth * 0.03,
+                  backgroundColor: 'black',
+                }}
+              />
+              <View
+                style={{
+                  backgroundColor: 'white',
+                  height: windowHeight * 0.02,
+                  width: windowWidth * 0.02,
+                  marginHorizontal:windowWidth*0.09
+                }}>
+                <Image
+                  style={{
+                    borderColor: 'white',
+                    borderWidth: 2,
+                    width: windowWidth * 0.2, //Navbar
+                    height: windowWidth * 0.2,
+                  }}
+                  source={require('../../Assets/icons/send.png')}
                 />
               </View>
             </View>
