@@ -56,7 +56,7 @@ const App = () => {
             <View
               style={{
                 backgroundColor: '#4c0b78',
-                width: windowHeight * 0.4, //width property
+                width: windowHeight * 0.3, //width property
                 height: windowHeight * 0.2,
                 borderRadius: windowWidth * 0.05,
                 marginTop: windowWidth * 0.03,
@@ -130,22 +130,38 @@ const App = () => {
                   }}>
                   12/20
                 </Text>
-                <Text
+                <View
                   style={{
-                    color: 'white',
-                    fontSize: windowWidth * 0.04,
+                    backgroundColor: '#D862BC',
+                    width: windowWidth * 0.2,
+                    height: windowWidth * 0.2,
+                    borderRadius: windowWidth * 1,
                   }}>
-                  VISA
-                </Text>
+                  <Text
+                    style={{
+                      color: 'white',
+                      alignSelf: 'center',
+                      fontSize: windowWidth * 0.04,
+                    }}>
+                    VISA
+                  </Text>
+                </View>
               </View>
             </View>
             <View
               style={{
+                backroundcolor: '#D862BC',
+                width: windowWidth * 0.03,
+                height: windowWidth * 0.2,
+              }}></View>
+            <View
+              style={{
                 backgroundColor: '#fc983a',
-                width: windowHeight * 0.4, //width property
+                width: windowHeight * 0.3, //width property
                 height: windowHeight * 0.2,
                 borderRadius: windowWidth * 0.05,
                 marginTop: windowWidth * 0.03,
+                marginLeft: windowWidth * 0.005,
               }}>
               <Text
                 style={{
@@ -214,7 +230,7 @@ const App = () => {
                     color: 'white',
                     fontSize: windowWidth * 0.04,
                   }}>
-                  12/20
+                  11/20
                 </Text>
                 <Text
                   style={{
@@ -252,16 +268,16 @@ const App = () => {
               <View style={{flexDirection: 'row', alignSelf: 'center'}}>
                 <Text
                   style={{
-                    paddingLeft: windowWidth * 0.09,
+                    paddingRight: windowWidth * 0.02,
                   }}>
                   Search
                 </Text>
                 <Image
                   source={require('../../Assets/icons/search.png')}
                   style={{
-                    borderRadius: windowWidth * 0.6,
-                    width: windowWidth * 0.06,
-                    height: windowWidth * 0.06,
+                    fontWeight: windowWidth * 4,
+                    width: windowWidth * 0.05,
+                    height: windowWidth * 0.05,
                   }}
                 />
               </View>
@@ -325,22 +341,25 @@ const App = () => {
                 </Text>
               </View>
             </View>
-            <View style={{flexDirection: 'row', alignSelf: 'start'}}>
+            <View>
+              <View style={{flexDirection: 'row', alignSelf: 'start'}}>
+                <View
+                  style={{
+                    height: windowHeight * 0.05,
+                    width: windowWidth * 0.7,
+                    borderRadius: windowWidth * 0.03,
+                    backgroundColor: '#C7C8CC',
+                  }}
+                />
+                <Text style={{fontSize: windowWidth * 0.04}}>450.000 USD</Text>
+              </View>
               <View
                 style={{
-                  height: windowHeight * 0.05,
-                  width: windowWidth * 0.7,
-                  borderRadius: windowWidth * 0.03,
-                  backgroundColor: '#C7C8CC',
-                }}
-              />
-              <View
-                style={{
-                  borderRadius: windowWidth * 0.9,
+                  borderRadius: windowWidth * 0.01,
                   alignSelf: 'flex-end',
                   backgroundColor: '#fc983a',
                   height: windowWidth * 0.1,
-                  width: windowWidth * 0.4,
+                  width: windowWidth * 0.2,
                   marginHorizontal: windowWidth * 0.04,
                 }}>
                 <Image
@@ -350,6 +369,7 @@ const App = () => {
                     height: windowWidth * 0.07,
                     alignSelf: 'center',
                     justifyContent: 'center',
+                    marginTop: windowWidth * 0.012,
                   }}
                   source={require('../../Assets/icons/sendWhite.png')}
                 />
@@ -386,7 +406,7 @@ const App = () => {
                     alignSelf: 'center',
                     justifyContent: 'center',
                   }}
-                  source={require('../../Assets/images/arda.png')}></Image>
+                  source={require('../../Assets/images/me.png')}></Image>
                 <View
                   style={{
                     marginLeft: windowWidth * 0.05,
@@ -451,7 +471,7 @@ const App = () => {
                       alignSelf: 'center',
                       justifyContent: 'center',
                     }}
-                    source={require('../../Assets/images/arda.png')}></Image>
+                    source={require('../../Assets/images/me.png')}></Image>
                   <View
                     style={{
                       marginLeft: windowWidth * 0.05,
