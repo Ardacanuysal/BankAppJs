@@ -336,13 +336,16 @@ const App = () => {
               />
               <View
                 style={{
+                  borderRadius: windowWidth * 0.9,
+                  alignSelf: 'flex-end',
                   backgroundColor: '#fc983a',
                   height: windowWidth * 0.1,
-                  width: windowWidth * 0.1,
+                  width: windowWidth * 0.4,
                   marginHorizontal: windowWidth * 0.04,
                 }}>
                 <Image
                   style={{
+                    margin: 'center',
                     width: windowWidth * 0.07,
                     height: windowWidth * 0.07,
                     alignSelf: 'center',
@@ -368,7 +371,7 @@ const App = () => {
               </Text>
               <View
                 style={{
-                  marginTop:windowWidth*0.03,
+                  marginTop: windowWidth * 0.03,
                   height: windowWidth * 0.2,
                   width: windowWidth * 1,
                   marginHorizontal: windowWidth * 0.01,
@@ -384,25 +387,108 @@ const App = () => {
                     justifyContent: 'center',
                   }}
                   source={require('../../Assets/images/arda.png')}></Image>
-                <View style={{marginLeft: windowWidth * 0.05}}>
-                  <Text
+                <View
+                  style={{
+                    marginLeft: windowWidth * 0.05,
+                    flexDirection: 'row',
+                  }}>
+                  <View style={{}}>
+                    <Text
+                      style={{
+                        fontSize: windowWidth * 0.05,
+                        fontFamily: 'Montserrat',
+                      }}>
+                      Arda Can Uysal
+                    </Text>
+                    <Text
+                      style={{
+                        marginTop: windowWidth * 0.01,
+                        color: 'gray',
+                        fontSize: windowWidth * 0.03,
+                        fontFamily: 'Montserrat',
+                      }}>
+                      24 July 2023
+                    </Text>
+                  </View>
+                  <View
                     style={{
-                      fontSize: windowWidth * 0.05,
-                      fontFamily: 'Montserrat',
+                      flexDirection: 'row',
+                      marginLeft: windowWidth * 0.15,
+                      marginTop: windowWidth * 0.03,
                     }}>
-                    Arda Can Uysal
-                  </Text>
-                  <Text
+                    <Text
+                      style={{
+                        fontWeight: 'bold',
+                        fontsize: windowWidth * 0.09,
+                      }}>
+                      $14.325
+                    </Text>
+                  </View>
+                </View>
+              </View>
+              <View
+                style={{
+                  marginTop: windowWidth * 0.03,
+                  height: windowWidth * 0.2,
+                  width: windowWidth * 1,
+                  marginHorizontal: windowWidth * 0.01,
+                  flexDirection: 'row',
+                }}>
+                <View
+                  style={{
+                    marginTop: windowWidth * 0.0,
+                    height: windowWidth * 0.2,
+                    width: windowWidth * 1,
+                    marginHorizontal: windowWidth * 0.01,
+                    flexDirection: 'row',
+                  }}>
+                  <Image
                     style={{
-                      marginTop: windowWidth * 0.01,
-                      color: 'gray',
-                      fontSize: windowWidth * 0.03,
-                      fontFamily: 'Montserrat',
+                      marginTop: windowWidth * 0,
+                      borderRadius: windowWidth * 0.03,
+                      width: windowWidth * 0.2,
+                      height: windowWidth * 0.2,
+                      alignSelf: 'center',
+                      justifyContent: 'center',
+                    }}
+                    source={require('../../Assets/images/arda.png')}></Image>
+                  <View
+                    style={{
+                      marginLeft: windowWidth * 0.05,
+                      flexDirection: 'row',
                     }}>
-                    24 July 2023
-                  </Text>
-                  <View style={{flexDirection: 'row'}}>
-                    <Text>asdf</Text>
+                    <View style={{}}>
+                      <Text
+                        style={{
+                          fontSize: windowWidth * 0.05,
+                          fontFamily: 'Montserrat',
+                        }}>
+                        Arda Can Uysal
+                      </Text>
+                      <Text
+                        style={{
+                          marginTop: windowWidth * 0.01,
+                          color: 'gray',
+                          fontSize: windowWidth * 0.03,
+                          fontFamily: 'Montserrat',
+                        }}>
+                        24 July 2023
+                      </Text>
+                    </View>
+                    <View
+                      style={{
+                        flexDirection: 'row',
+                        marginLeft: windowWidth * 0.15,
+                        marginTop: windowWidth * 0.03,
+                      }}>
+                      <Text
+                        style={{
+                          fontWeight: 'bold',
+                          fontsize: windowWidth * 0.09,
+                        }}>
+                        $14.325
+                      </Text>
+                    </View>
                   </View>
                 </View>
               </View>
